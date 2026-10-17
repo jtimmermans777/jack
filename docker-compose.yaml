@@ -1,9 +1,9 @@
+version: "3.8"
 services:
   jekyll-site:
-    image: jekyll-site
     build: .
-    volumes: [ .:/usr/src/app ]
-    ports: [ 4000:4000 ]
-    user: 1000:1000
-    environment: [ JEKYLL_ENV=docker ]
-    command: sleep infinity
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/usr/src/app
+    command: bundle exec jekyll serve --host 0.0.0.0 --force_polling
