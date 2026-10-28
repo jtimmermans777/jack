@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/RidgeRegularizationRevisited
 excerpt: "In review for publication at TPAMI IEEE"
-date: 2026
+date: 2026-01-01
 venue: ""
 citation: "Timmermans, Jack, and Sergio A. Alvarez. ``Optimal ridge regularization revisited.'' arXiv preprint arXiv:2605.28679 (2026)"
 ---
