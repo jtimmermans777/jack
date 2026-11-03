@@ -1,0 +1,27 @@
+.pdf-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.pdf-viewer {
+  display: block;
+  width: 100%;
+  height: 78vh;
+  min-height: 36rem;
+  max-height: 64rem;
+  border: 1px solid var(--global-border-color);
+}
+
+.pdf-fallback {
+  padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .pdf-viewer {
+    height: 70vh;
+    height: 70svh;
+    min-height: 24rem;
+  }
+}
